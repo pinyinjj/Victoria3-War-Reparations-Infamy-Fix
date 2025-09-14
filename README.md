@@ -71,6 +71,10 @@ game/common/treaty_articles/05_transfer_money.txt - money_transfer.wargoal.infam
 - **Multiplayer**: Synchronized
 - **Other Mods**: Compatible with most mods due to high loading priority
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Support
 
 For issues or suggestions, please refer to the mod's discussion page or create an issue in the repository.

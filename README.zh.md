@@ -69,6 +69,10 @@ game/common/treaty_articles/05_transfer_money.txt - money_transfer.wargoal.infam
 - **多人游戏**: 同步
 - **其他Mod**: 由于高加载优先级，与大多数Mod兼容
 
+## 许可证
+
+本项目采用 MIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件。
+
 ## 支持
 
 如有问题或建议，请参考Mod讨论页面或在仓库中创建问题。
