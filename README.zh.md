@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README.zh.md)
+
 # 维多利亚3战争赔款恶名修复
 
 维多利亚3 (v1.9.8) 战争赔款恶名系统调整Mod，允许玩家自定义恶名生成，提供更快的衰减率和提高的阈值。
@@ -71,6 +73,3 @@ game/common/treaty_articles/05_transfer_money.txt - money_transfer.wargoal.infam
 
 如有问题或建议，请参考Mod讨论页面或在仓库中创建问题。
 
----
-
-**语言**: [English](README.md) | [中文](README.zh.md)

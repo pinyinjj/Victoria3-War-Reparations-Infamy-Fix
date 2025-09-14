@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README.zh.md)
+
 # Victoria 3 War Reparations Infamy Fix
 
 A mod for Victoria 3 (v1.9.8) that provides an adjustable infamy system for war reparations, allowing players to customize infamy generation with faster decay rates and raised thresholds.
