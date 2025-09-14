@@ -1,0 +1,12 @@
+{
+  "name" : "Victoria3-War-Reparations-Infamy-Fix",
+  "id" : "",
+  "version" : "1.0.0",
+  "supported_game_version" : "1.9.8",
+  "short_description" : "Adjustable infamy system for war reparations - lower divide values increase infamy generation, with customizable min/max limits, plus 5x faster decay and raised thresholds.",
+  "tags" : ["gameplay", "balance", "diplomacy", "infamy", "war-reparations", "treaty"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
