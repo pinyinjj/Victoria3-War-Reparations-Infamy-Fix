@@ -16,7 +16,7 @@
 
 ## 安装
 
-### 推荐：Steam创意工坊（推荐）
+### 推荐：Steam创意工坊
 
 1. 访问 [Steam创意工坊页面](https://steamcommunity.com/sharedfiles/filedetails/?id=3567979652)
 2. 点击"订阅"自动下载和安装

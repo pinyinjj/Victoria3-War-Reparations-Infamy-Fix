@@ -16,7 +16,7 @@ This mod addresses the imbalance in Victoria 3's war reparations system where de
 
 ## Installation
 
-### Recommended: Steam Workshop (Recommended)
+### Recommended: Steam Workshop
 
 1. Visit the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3567979652)
 2. Click "Subscribe" to automatically download and install
@@ -74,7 +74,3 @@ game/common/treaty_articles/05_transfer_money.txt - money_transfer.wargoal.infam
 ## Support
 
 For issues or suggestions, please refer to the mod's discussion page or create an issue in the repository.
-
----
-
-**Language / 语言**: [English](README.md) | [中文](README.zh.md)
