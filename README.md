@@ -14,40 +14,35 @@ This mod addresses the imbalance in Victoria 3's war reparations system where de
 
 ## Installation
 
+### Recommended: Steam Workshop (Recommended)
+
+1. Visit the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3567979652)
+2. Click "Subscribe" to automatically download and install
+3. Launch Victoria 3 - the mod will be automatically enabled
+4. Start a new game or load an existing save
+
+**Note**: Steam Workshop installation is the most reliable method. Manual installation may cause the mod to not work properly.
+
+### Manual Installation
+
 1. Download the mod files
 2. Place in Victoria 3 mod directory
 3. Enable the mod in the game launcher
 4. Start a new game or load an existing save
 
-## Technical Details
-
-### Infamy Calculation Parameters
-
-The mod modifies three key parameters in the war reparations infamy calculation:
-
-- **divide**: Lower values increase infamy generation (default: 10000)
-- **min**: Minimum infamy value (max: 5)
-- **max**: Maximum infamy value (max: 50)
-
-### File Structure
+## File Structure
 
 ```
 common/
 ├── defines/
 │   └── 99_mwid_infamy_fix.txt          # Infamy thresholds and decay rates
 └── treaty_articles/
-    └── 99_mwid_transfer_money.txt      # War reparations infamy calculations
+    └── 05_transfer_money.txt            # War reparations infamy calculations
 ```
-
-### Naming Convention
-
-- Files prefixed with `99_` ensure highest loading priority
-- Overrides game files in `game/common/defines/` and `game/common/treaty_articles/`
-- Maintains compatibility with other mods
 
 ## Customization
 
-You can adjust the infamy generation by modifying the following values in `common/treaty_articles/99_mwid_transfer_money.txt`:
+You can adjust the infamy generation by modifying the following values in `common/treaty_articles/05_transfer_money.txt`:
 
 ```txt
 divide = 10000  # Lower values = higher infamy
@@ -55,18 +50,18 @@ min = 0.5       # Minimum infamy (max: 5)
 max = 20        # Maximum infamy (max: 50)
 ```
 
-## Development Background
+## Development Approach
 
-This mod was created to address the gameplay imbalance where war reparations generated disproportionately high infamy compared to their strategic value. The solution focuses on the `money_transfer` treaty article's infamy calculation, providing a targeted fix that doesn't affect other game systems.
+This mod uses a hot-patch approach:
 
-### Key Discovery
+1. **Complete File Override**: The entire `05_transfer_money.txt` treaty article file is copied and modified
+2. **Selective Value Changes**: Only specific parameters (`divide`, `min`, `max`) are adjusted while preserving all other functionality
+3. **Minimal Impact**: Precisely control war reparations infamy without affecting other diplomatic actions or risking conflicts with other mods.
 
 The core infamy calculation is located in:
 ```
-game/common/treaty_articles/money_transfer.wargoal.infamy
+game/common/treaty_articles/05_transfer_money.txt - money_transfer.wargoal.infamy
 ```
-
-By modifying the `divide`, `min`, and `max` parameters, we can precisely control war reparations infamy without affecting other diplomatic actions.
 
 ## Compatibility
 
@@ -77,3 +72,7 @@ By modifying the `divide`, `min`, and `max` parameters, we can precisely control
 ## Support
 
 For issues or suggestions, please refer to the mod's discussion page or create an issue in the repository.
+
+---
+
+**Language / 语言**: [English](README.md) | [中文](README.zh.md)
