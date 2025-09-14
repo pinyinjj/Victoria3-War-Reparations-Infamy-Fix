@@ -15,7 +15,7 @@ This mod addresses the imbalance in Victoria 3's war reparations system where de
 ## Installation
 
 1. Download the mod files
-2. Place the `common` folder in your Victoria 3 mod directory
+2. Place in Victoria 3 mod directory
 3. Enable the mod in the game launcher
 4. Start a new game or load an existing save
 
@@ -26,8 +26,8 @@ This mod addresses the imbalance in Victoria 3's war reparations system where de
 The mod modifies three key parameters in the war reparations infamy calculation:
 
 - **divide**: Lower values increase infamy generation (default: 10000)
-- **min**: Minimum infamy value (default: 0.5, max: 5)
-- **max**: Maximum infamy value (default: 20, max: 49)
+- **min**: Minimum infamy value (max: 5)
+- **max**: Maximum infamy value (max: 50)
 
 ### File Structure
 
@@ -52,7 +52,7 @@ You can adjust the infamy generation by modifying the following values in `commo
 ```txt
 divide = 10000  # Lower values = higher infamy
 min = 0.5       # Minimum infamy (max: 5)
-max = 20        # Maximum infamy (max: 49)
+max = 20        # Maximum infamy (max: 50)
 ```
 
 ## Development Background
